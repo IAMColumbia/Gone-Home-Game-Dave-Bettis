@@ -7,11 +7,16 @@ public class PlayerInteractor : MonoBehaviour
 
     private void Update()
     {
-        bool didRaycastHit = Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward);
+        Transform camaraTransform = Camera.main.transform;
+        RaycastHit raycastHitInfo;
+        bool didRaycastHit = Physics.Raycast(camaraTransform.position, camaraTransform.forward, out raycastHitInfo);
+    
+           
         Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * InteractDistance, Color.red);
         if (didRaycastHit)
         {
-            Debug.Log("Raycast hit... something?");
+            Debug.Log("Raycast hit...  + ObjectName?");
+            string hitObjectName = raycastHitInfo.collider.gameObject.name;
         }
     }
     private void OnEnable()
