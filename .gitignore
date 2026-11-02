@@ -114,3 +114,7 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ss]ceneDependencyCache*
 /Assets/_Recovery
 Assets/_Recovery.meta
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
+Assets/ProBuilder Data.meta
+Assets/ProBuilder Data/Default Color Palette.asset
+/Assets/ProBuilder Data
