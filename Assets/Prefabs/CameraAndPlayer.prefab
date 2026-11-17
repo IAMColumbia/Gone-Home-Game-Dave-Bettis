@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractor
   InteractDistance: 2
-  interactAction: {fileID: 0}
+  interactAction: {fileID: 1781555164194001046, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!33 &6103094849017607386
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -319,7 +319,7 @@ MonoBehaviour:
       Enabled: 1
       Input:
         InputAction: {fileID: -5630151704836100654, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-        Gain: -8
+        Gain: -25
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -330,7 +330,7 @@ MonoBehaviour:
       Enabled: 1
       Input:
         InputAction: {fileID: -5630151704836100654, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-        Gain: -8
+        Gain: -25
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
