@@ -112182,6 +112182,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3489992092327518182, guid: 4426917428f0c044e98e68e29d9b92a0, type: 3}
+      propertyPath: m_ControllerManager.Controllers.Array.data[0].Input.Gain
+      value: -20.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489992092327518182, guid: 4426917428f0c044e98e68e29d9b92a0, type: 3}
+      propertyPath: m_ControllerManager.Controllers.Array.data[1].Input.Gain
+      value: -20.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3894057295438123198, guid: 4426917428f0c044e98e68e29d9b92a0, type: 3}
       propertyPath: m_Name
       value: CameraAndPlayer
@@ -112237,6 +112245,10 @@ PrefabInstance:
     - target: {fileID: 7373370014680517661, guid: 4426917428f0c044e98e68e29d9b92a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640697863589741690, guid: 4426917428f0c044e98e68e29d9b92a0, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9040887320028640858, guid: 4426917428f0c044e98e68e29d9b92a0, type: 3}
       propertyPath: m_LocalPosition.x
